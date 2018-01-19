@@ -1038,4 +1038,14 @@ export default {
       hide("#toc-contents");
     },
   },
+  "coinpride/CryptoList": { // The GitHub user and repo names
+  "slug": "cryptolist", // A slug used for short URLs (like https://list.community/javascript)
+  "label": "CryptoList", // The label displayed in the homepage and in the page title
+  "shortDescription": // Description shown in the homepage
+    "CryptoList is a curated collection of blockchain & cryptocurrency resources.",
+  "logo": "https://avatars1.githubusercontent.com/u/31234553", // The logo, ideally a GitHub avatar so that we can pass a `size` param
+  "color": "#303030", // Color used in the topbar
+  "category": "Bitcoin", // Ideally, one of the categories from https://github.com/sindresorhus/awesome
+  "invertTextColor": true, // If necessary for better readability, true will make the text in the topbar black instead of white
+}
 };
